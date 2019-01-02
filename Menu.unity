@@ -150,7 +150,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -156, y: -66}
+  m_AnchoredPosition: {x: -151, y: -101}
   m_SizeDelta: {x: 413, y: 165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &408076114
@@ -561,7 +561,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4784264610204280, guid: 20723348371ad4fae8e9db93442a4930, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 114501753900253934, guid: 20723348371ad4fae8e9db93442a4930,
         type: 2}
@@ -742,6 +742,7 @@ RectTransform:
   - {fileID: 1725304438}
   - {fileID: 2080033670}
   - {fileID: 1661963396}
+  - {fileID: 1815623184}
   - {fileID: 1085974386}
   - {fileID: 1938697462}
   - {fileID: 1515511003}
@@ -877,8 +878,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 265}
-  m_SizeDelta: {x: 1021.1, y: 348.5}
+  m_AnchoredPosition: {x: 5, y: 144}
+  m_SizeDelta: {x: 1123.1, y: 442.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090790141
 MonoBehaviour:
@@ -901,11 +902,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7b95f4c4e30df400395d961b80ef8409, type: 3}
-    m_FontSize: 211
+    m_FontSize: 209
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
-    m_MaxSize: 219
+    m_MaxSize: 232
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1059,7 +1060,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 268, y: -66}
+  m_AnchoredPosition: {x: 273, y: -101}
   m_SizeDelta: {x: 413, y: 165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1360432460
@@ -1290,6 +1291,7 @@ MonoBehaviour:
     bones: 0
     cantidadTrolls: 0
     numParaPromedio: 0
+    cantidadAnimXpantalla: 0
     tiempoActual: 600
     posActualEnemigo: 0
     fallos: 0
@@ -1351,7 +1353,7 @@ RectTransform:
   m_Children:
   - {fileID: 1057852918}
   m_Father: {fileID: 966655257}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1491,7 +1493,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4533636018803258, guid: 0d22da85a010644eab79d3cf805bc967, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d22da85a010644eab79d3cf805bc967, type: 2}
@@ -1509,7 +1511,7 @@ GameObject:
   - component: {fileID: 1661963400}
   - component: {fileID: 1661963399}
   m_Layer: 5
-  m_Name: unaHeorina
+  m_Name: Su Valentia
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1530,7 +1532,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 42, y: -47}
+  m_AnchoredPosition: {x: 484, y: -51}
   m_SizeDelta: {x: 1021.1, y: 348.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1661963397
@@ -1554,18 +1556,18 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 7b95f4c4e30df400395d961b80ef8409, type: 3}
-    m_FontSize: 30
-    m_FontStyle: 0
+    m_FontSize: 33
+    m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 227
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 1
+    m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: Una aventura extraordinaria
+    m_LineSpacing: 0.5
+  m_Text: Su valentia,
 --- !u!222 &1661963398
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1706,6 +1708,111 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1815623183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1815623184}
+  - component: {fileID: 1815623188}
+  - component: {fileID: 1815623187}
+  - component: {fileID: 1815623186}
+  - component: {fileID: 1815623185}
+  m_Layer: 5
+  m_Name: Tu Conocimiento
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1815623184
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1815623183}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 966655257}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 388, y: -92}
+  m_SizeDelta: {x: 1021.1, y: 348.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1815623185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1815623183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e841fcb4107146c08c4b6482b0d6616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1815623186
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1815623183}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8c0e0315588c2443da11b544c5b5c216, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1815623187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1815623183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7b95f4c4e30df400395d961b80ef8409, type: 3}
+    m_FontSize: 33
+    m_FontStyle: 2
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 227
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
+    m_LineSpacing: 0.5
+  m_Text: tu conocimiento
+--- !u!222 &1815623188
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1815623183}
 --- !u!1 &1938697461 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1145332976595872, guid: 0d22da85a010644eab79d3cf805bc967,
