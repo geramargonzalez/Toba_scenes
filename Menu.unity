@@ -363,11 +363,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: ea6f3f5eb01378e429cd1fa7dc7aaa9a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2194
+      value: -2396
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea6f3f5eb01378e429cd1fa7dc7aaa9a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 401
+      value: 503
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea6f3f5eb01378e429cd1fa7dc7aaa9a, type: 2}
       propertyPath: m_LocalPosition.z
@@ -399,11 +399,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea6f3f5eb01378e429cd1fa7dc7aaa9a, type: 2}
       propertyPath: m_LocalScale.x
-      value: 80
+      value: 91
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea6f3f5eb01378e429cd1fa7dc7aaa9a, type: 2}
       propertyPath: m_LocalScale.y
-      value: 80
+      value: 91
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea6f3f5eb01378e429cd1fa7dc7aaa9a, type: 2}
       propertyPath: m_LocalScale.z
@@ -878,7 +878,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: 144}
+  m_AnchoredPosition: {x: -29, y: 144}
   m_SizeDelta: {x: 1123.1, y: 442.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090790141
@@ -1289,6 +1289,7 @@ MonoBehaviour:
     nivel: 0
     nivelMaximo: 0
     bones: 0
+    audioOn: 1
     cantidadTrolls: 0
     numParaPromedio: 0
     cantidadAnimXpantalla: 0
@@ -1305,7 +1306,9 @@ MonoBehaviour:
     speedBoost: 40
     orcosPorAnimales: 
     bonesBool: 
-    okTutOrquito: 0
+    okTutOrquito: 1
+    tutorial: 1
+    primeraVez: 1
     cantAnimalesConvertidos: 0
     totalCuentas: 0
   devMode: 1
@@ -1532,7 +1535,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 484, y: -51}
+  m_AnchoredPosition: {x: 450, y: -51}
   m_SizeDelta: {x: 1021.1, y: 348.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1661963397
@@ -1742,7 +1745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 388, y: -92}
+  m_AnchoredPosition: {x: 353.99997, y: -92}
   m_SizeDelta: {x: 1021.1, y: 348.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1815623185
@@ -1864,7 +1867,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0

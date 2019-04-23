@@ -9547,6 +9547,11 @@ Prefab:
       propertyPath: enemyAudio.trollDeathSound
       value: 
       objectReference: {fileID: 8300000, guid: 0c469becb35d9404bb48549774dd5c54, type: 3}
+    - target: {fileID: 114501753900253934, guid: 20723348371ad4fae8e9db93442a4930,
+        type: 2}
+      propertyPath: audioEffects.monedaSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1e0c102bdaf3c42f1b48ae92598c5f4b, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 20723348371ad4fae8e9db93442a4930, type: 2}
   m_IsPrefabParent: 0
@@ -9555,6 +9560,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4784264610204280, guid: 20723348371ad4fae8e9db93442a4930,
     type: 2}
   m_PrefabInternal: {fileID: 169691848}
+--- !u!114 &169691850 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114501753900253934, guid: 20723348371ad4fae8e9db93442a4930,
+    type: 2}
+  m_PrefabInternal: {fileID: 169691848}
+  m_Script: {fileID: 11500000, guid: 96a02ceb0759d4bd5a175dfc6c7911a7, type: 3}
 --- !u!1 &169945523
 GameObject:
   m_ObjectHideFlags: 0
@@ -45474,6 +45485,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114429881009460178, guid: fbdd523afc45740db9537624c92bd8df,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224594026534918130, guid: fbdd523afc45740db9537624c92bd8df,
         type: 2}
       propertyPath: m_RootOrder
@@ -45652,6 +45668,46 @@ Prefab:
     - target: {fileID: 1470371903015098, guid: fbdd523afc45740db9537624c92bd8df, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114429881009460178, guid: fbdd523afc45740db9537624c92bd8df,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114429881009460178, guid: fbdd523afc45740db9537624c92bd8df,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114429881009460178, guid: fbdd523afc45740db9537624c92bd8df,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 169691850}
+    - target: {fileID: 114429881009460178, guid: fbdd523afc45740db9537624c92bd8df,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: toggleAudio
+      objectReference: {fileID: 0}
+    - target: {fileID: 114429881009460178, guid: fbdd523afc45740db9537624c92bd8df,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114270538802731290, guid: fbdd523afc45740db9537624c92bd8df,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 169691850}
+    - target: {fileID: 114270538802731290, guid: fbdd523afc45740db9537624c92bd8df,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PararBSO
+      objectReference: {fileID: 0}
+    - target: {fileID: 114270538802731290, guid: fbdd523afc45740db9537624c92bd8df,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fbdd523afc45740db9537624c92bd8df, type: 2}
@@ -47971,14 +48027,6 @@ Prefab:
     - target: {fileID: 1326115209731954, guid: cedb68a45f0ee41a39afe8992e0bd974, type: 2}
       propertyPath: m_Name
       value: PlatFallenRock2 (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4561090827663778, guid: cedb68a45f0ee41a39afe8992e0bd974, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.39999998
-      objectReference: {fileID: 0}
-    - target: {fileID: 4561090827663778, guid: cedb68a45f0ee41a39afe8992e0bd974, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.39999998
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cedb68a45f0ee41a39afe8992e0bd974, type: 2}
@@ -56049,11 +56097,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 224124509675898116, guid: 059f10954b2334f9cab0976475f5cbf8,
-        type: 2}
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
     - target: {fileID: 224124509675898116, guid: 059f10954b2334f9cab0976475f5cbf8,
         type: 2}
       propertyPath: m_LocalPosition.x
